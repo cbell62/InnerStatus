@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity4 extends activity2{
+public class activity9 extends activity3 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity3);
+        setContentView(R.layout.activity_main);
+
     }
 }

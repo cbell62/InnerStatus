@@ -1,11 +1,8 @@
 package com.example.innerstatus2;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-public class activity4 extends activity2{
+public class activity7 extends activity5 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
