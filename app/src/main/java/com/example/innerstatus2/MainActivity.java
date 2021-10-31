@@ -30,20 +30,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button oButton = (Button) findViewById(R.id.login);
-        oButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, activity3.class));
-            }
-        });
-
-        Button pButton = (Button) findViewById(R.id.signup);
-        pButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, activity3.class));
-            }
-        });
     }
 }

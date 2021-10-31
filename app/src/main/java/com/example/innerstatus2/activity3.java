@@ -2,9 +2,7 @@ package com.example.innerstatus2;
 
 import android.os.Bundle;
 
-public class activity3 {
-
-    public class activity2 extends MainActivity{
+public class activity3 extends activity1{
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -12,4 +10,3 @@ public class activity3 {
             setContentView(R.layout.activity3);
         }
     }
-}
